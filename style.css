@@ -4,11 +4,7 @@
 }
 
 body{
-<<<<<<< Updated upstream
-    background-color: #dcdde1;
-=======
     background-color: #f5f6fa;
->>>>>>> Stashed changes
     font-family: 'Fira Sans Condensed', sans-serif;
 }     
 
@@ -166,7 +162,7 @@ body{
     width: 331px;
     height: 76px;
     left: 0;
-    top: 259px;
+    top: 235px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0px 20px 20px 0px;
@@ -247,7 +243,7 @@ body{
     width: 331px;
     height: 76px;
     right: 0;
-    top: 365px;
+    top: 341px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 20px 0px 0px 20px;
@@ -315,7 +311,7 @@ body{
     width: 331px;
     height: 76px;
     left: 0;
-    top: 467px;
+    top: 443px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0px 20px 20px 0px;
@@ -408,7 +404,7 @@ body{
     width: 331px;
     height: 76px;
     right: 0;
-    top: 571px;
+    top: 547px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 20px 0px 0px 20px;
