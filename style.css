@@ -4,14 +4,20 @@
 }
 
 body{
+<<<<<<< Updated upstream
     background-color: #dcdde1;
+=======
+    background-color: #f5f6fa;
+>>>>>>> Stashed changes
     font-family: 'Fira Sans Condensed', sans-serif;
 }     
 
 .header{
     position: absolute;
+    padding-top: 85px;
+    padding-left: 25px;
     width: 100%;
-    height: 206px;
+    height: 100px;
     background: #F5F6FA;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 0 0 20px 20px;
@@ -23,33 +29,29 @@ body{
     position: absolute;
     width: 105px;
     height: 107px;
-    right: 20px;
+    right: 50px;
     top: 50px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .nome{
-    position: absolute;
     text-transform: uppercase;
     color: black;
     font-weight: 800;
     font-size: 30px;
     line-height: 36px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-    left: 6.5%;
-    top: 40%;
+    display:inline-block; 
 }
 
 .nome2{
-    position: absolute;
     text-transform: uppercase;
     color: #6C63FF;
     font-weight: 800;
     font-size: 30px;
     line-height: 36px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-    left: 24.5%;
-    top: 40%;
+    display:inline-block;
 }
 
 .creator{
@@ -92,7 +94,7 @@ body{
     width: 161px;
     height: 20px;
     left: 107px;
-    top: 206px;
+    top: 185px;
     background: #F5F6FA;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 0px 0px 20px 20px;
@@ -122,16 +124,16 @@ body{
 
 #instagram:active {
     background: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    webkit-background-clip: text;
+    webkit-text-fill-color: transparent;
     background-clip: text;
     -text-fill-color: transparent; 
 }
 
 #instagram:hover {
     background: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    webkit-background-clip: text;
+    webkit-text-fill-color: transparent;
     background-clip: text;
     -text-fill-color: transparent; 
 }
@@ -492,7 +494,7 @@ body{
 
 
 
-/*.testo-footer{
+.testo-footer{
     position: fixed;
     color: #000;
     font-size: 11px;
@@ -515,4 +517,4 @@ body{
     left: 197px;
     text-transform: uppercase;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-}*/
+}
