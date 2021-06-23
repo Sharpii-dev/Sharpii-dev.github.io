@@ -96,14 +96,16 @@ body{
     border-radius: 0px 0px 20px 20px;
 }
 
+/* TELEGRAM */
 #telegram {
     position: absolute;
     left: 15px;
     top: -10px;
     font-size: 23px;
+    color: black;
 }
 
-#telegram:active {
+#telegram:focus {
     color: #2b90d9;
 }
 
@@ -111,41 +113,43 @@ body{
     color: #2b90d9;
 }
 
+/* INSTAGRAM */
+
 #instagram {
     position: absolute;
     left: 67px;
     top: -10px;
     font-size: 23px;
+    color: black;
 }
 
-#instagram:active {
+#instagram:focus {
     background: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
-    webkit-background-clip: text;
-    webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     -text-fill-color: transparent; 
 }
 
 #instagram:hover {
     background: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
-    webkit-background-clip: text;
-    webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
     -text-fill-color: transparent; 
 }
 
-#instagram:visited{
-    color: black;
-}
+/* EMAIL */
 
 #email {
     position: absolute;
     left: 120px;
     top: -12px;
     font-size: 22px;
+    color: black;
 }
 
-#email:active{
+#email:focus{
     color: #cd201f;
 }
 
