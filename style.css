@@ -303,8 +303,8 @@ body{
     position: absolute;
     width: 68px;
     height: 40px;  
-    right: 250px;
-    top: 20px;
+    right: 235px;
+    top: 18px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
@@ -394,10 +394,9 @@ body{
 
 .foto-lention{
     position: absolute;
-    width: 65px;
-    height: 65px;
-    right: 7px;
-    top: 5px;
+    width: 75px;
+    height: 75px;
+    right: 15px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
@@ -489,7 +488,7 @@ body{
     top: 16px;
     width: 35px;
     height: 45px;
-    left: 10px;
+    left: 18px;
 }
 
 
