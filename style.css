@@ -12,24 +12,25 @@ body{
     position: absolute;
     padding-top: 60px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     background: #F5F6FA;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 0 0 20px 20px;
 }
 
-/* PROFILO */
+/* foto profilo */
 
 .profilo {
     position: absolute;
-    width: 165px;
-    height: 240px;
+    width: 155px;
+    height: 230px;
     right: -15px;
-    top: 20px;
+    top: 10px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.nome{
+/* tech. */
+.nome{ 
     text-transform: uppercase;
     color: black;
     padding-left: 25px;
@@ -40,6 +41,7 @@ body{
     display:inline-block; 
 }
 
+/* sharpii */
 .nome2{
     text-transform: uppercase;
     color: #6C63FF;
@@ -58,7 +60,7 @@ body{
     line-height: 17px;
     font-size: 14px;
     left: 28px;
-    top: 105px;
+    top: 100px;
 }
 
 .product{
@@ -68,8 +70,8 @@ body{
     text-align: center;
     line-height: 17px;
     font-size: 14px;
-    top: 105px;
-    left: 80px;
+    top: 100px;
+    left: 73px;
 }
 
 .photographer{
@@ -79,18 +81,18 @@ body{
     text-align: center;
     line-height: 17px;
     font-size: 14px;
-    top: 105px;
-    left: 142px;
+    top: 100px;
+    left: 130px;
 }
 
-/* SOCIAL */
+/* box social */
 
 .social-container {
     position: absolute;
     width: 161px;
     height: 20px;
     left: 107px;
-    top: 160px;
+    top: 140px;
     background: #F5F6FA;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 0px 0px 20px 20px;
@@ -143,7 +145,7 @@ body{
 }
 
 
-/* BLOCCHI */
+/*-------------- BLOCCHI --------------*/
 
 /* SETUP */
 .setup{
@@ -151,7 +153,7 @@ body{
     width: 331px;
     height: 76px;
     left: 0;
-    top: 210px;
+    top: 185px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0px 20px 20px 0px;
@@ -225,165 +227,9 @@ body{
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
-/* BENQ */
 
-.benq {
-    position: absolute;
-    width: 331px;
-    height: 76px;
-    right: 0;
-    top: 316px;
-    background: #f5f6fa;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 20px 0px 0px 20px;
-}
 
-.title-benq{
-    position: absolute;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 29.83px;
-    text-transform: uppercase;
-    color: #6C63FF;
-    top: 10px;
-    right: 145px;
-}
 
-.title2-benq{
-    position: absolute;
-    font-size: 25px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 29.83px;
-    text-transform: uppercase;
-    color: #000;
-    top: 10px;
-    right: 10px;
-}
-
-.subtitle-benq{
-    position: absolute;
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    right: 62px;
-    top: 45px;
-}
-
-.subtitle2-benq{
-    position: absolute;
-    color: #6C63FF;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    right: 10px;
-    top: 45px;
-}
-
-.foto-benq{
-    position: absolute;
-    width: 68px;
-    height: 40px;  
-    right: 235px;
-    top: 18px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
-}
-
-/* LENTION */
-
-.lention{
-    position: absolute;
-    width: 331px;
-    height: 76px;
-    left: 0;
-    top: 418px;
-    background: #f5f6fa;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 0px 20px 20px 0px;
-}
-
-.title-lention{         
-    position: absolute;
-    text-transform: uppercase;
-    left: 10px;
-    top: 10px;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    color: #6C63FF;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.title2-lention{
-    position: absolute;
-    text-transform: uppercase;
-    left: 105px;
-    top: 10px;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    color: black;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.subtitle-lention{
-    position: absolute;
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 10px;
-    top: 45px;
-}
-
-.subtitle2-lention{
-    position: absolute;
-    color: #6C63FF;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 128px;
-    top: 45px;
-    text-transform: uppercase;
-}
-
-.subtitle3-lention{
-    position: absolute;
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 175px;
-    top: 45px;
-}
-
-.subtitle4-lention{
-    position: absolute;
-    color: #6C63FF;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 197px;
-    top: 45px;
-}
-
-.foto-lention{
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    right: 15px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
-}
 
 /* PAYPAL */
 
@@ -392,7 +238,7 @@ body{
     width: 331px;
     height: 76px;
     right: 0;
-    top: 522px;
+    top: 291px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 20px 0px 0px 20px;
@@ -476,19 +322,19 @@ body{
     left: 18px;
 }
 
-
-.lightroom {
+/* Presets */
+.preset {
     position: absolute;
     width: 331px;
     height: 76px;
     left: 0;
-    top: 630px;
+    top: 397px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0px 20px 20px 0px;
 }
 
-.title-lightroom{
+.title-preset{
     position: absolute;
     text-transform: uppercase;
     left: 10px;
@@ -501,7 +347,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title2-lightroom{
+.title2-preset{
     position: absolute;
     text-transform: uppercase;
     left: 90px;
@@ -514,7 +360,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.subtitle-lightroom{
+.subtitle-preset{
     position: absolute;
     color: black;
     font-weight: 400;
@@ -525,7 +371,7 @@ body{
     top: 45px;
 }
 
-.subtitle2-lightroom{
+.subtitle2-preset{
     position: absolute;
     color: #6C63FF;
     font-weight: 400;
@@ -536,12 +382,12 @@ body{
     top: 45px;
 }
 
-.foto-lightroom{
+.foto-preset{
     position: absolute;
     top: -12px;
-    width: 100px;
+    width: 90px;
     height: 105px;
-    right: 10px;
+    right: 30px;
 }
 
 .testo-footer{
@@ -567,4 +413,166 @@ body{
     bottom: 0;
     text-transform: uppercase;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* BENQ */
+
+.benq {
+    position: absolute;
+    width: 331px;
+    height: 76px;
+    right: 0;
+    top: 503px;
+    background: #f5f6fa;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.title-benq{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 29.83px;
+    text-transform: uppercase;
+    color: #6C63FF;
+    top: 10px;
+    right: 145px;
+}
+
+.title2-benq{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 29.83px;
+    text-transform: uppercase;
+    color: #000;
+    top: 10px;
+    right: 10px;
+}
+
+.subtitle-benq{
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    right: 62px;
+    top: 45px;
+}
+
+.subtitle2-benq{
+    position: absolute;
+    color: #6C63FF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    right: 10px;
+    top: 45px;
+}
+
+.foto-benq{
+    position: absolute;
+    width: 68px;
+    height: 40px;  
+    right: 235px;
+    top: 18px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+
+/* ---------- BLOCCO NON PIÚ UTILIZZATO ---------- */
+/* LENTION */
+
+.lention{
+    position: absolute;
+    width: 331px;
+    height: 76px;
+    left: 0;
+    top: 397px;
+    background: #f5f6fa;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.title-lention{         
+    position: absolute;
+    text-transform: uppercase;
+    left: 10px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #6C63FF;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.title2-lention{
+    position: absolute;
+    text-transform: uppercase;
+    left: 105px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subtitle-lention{
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    left: 10px;
+    top: 45px;
+}
+
+.subtitle2-lention{
+    position: absolute;
+    color: #6C63FF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    left: 128px;
+    top: 45px;
+    text-transform: uppercase;
+}
+
+.subtitle3-lention{
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    left: 175px;
+    top: 45px;
+}
+
+.subtitle4-lention{
+    position: absolute;
+    color: #6C63FF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    left: 197px;
+    top: 45px;
+}
+
+.foto-lention{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    right: 15px;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
 }
