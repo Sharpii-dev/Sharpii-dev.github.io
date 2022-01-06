@@ -22,10 +22,10 @@ body{
 
 .profilo {
     position: absolute;
-    width: 105px;
-    height: 107px;
-    right: 10px;
-    top: 25px;
+    width: 165px;
+    height: 240px;
+    right: -15px;
+    top: 20px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -477,6 +477,72 @@ body{
 }
 
 
+.lightroom {
+    position: absolute;
+    width: 331px;
+    height: 76px;
+    left: 0;
+    top: 630px;
+    background: #f5f6fa;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.title-lightroom{
+    position: absolute;
+    text-transform: uppercase;
+    left: 10px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.title2-lightroom{
+    position: absolute;
+    text-transform: uppercase;
+    left: 90px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #6C63FF;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subtitle-lightroom{
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    left: 10px;
+    top: 45px;
+}
+
+.subtitle2-lightroom{
+    position: absolute;
+    color: #6C63FF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    left: 75px;
+    top: 45px;
+}
+
+.foto-lightroom{
+    position: absolute;
+    top: -12px;
+    width: 100px;
+    height: 105px;
+    right: 10px;
+}
 
 .testo-footer{
     position: absolute;
