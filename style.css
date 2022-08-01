@@ -3,12 +3,12 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: #d2dae2;
     font-family: 'Fira Sans Condensed', sans-serif;
-}     
+}
 
-.header{
+.header {
     position: absolute;
     padding-top: 40px;
     padding-left: 0px;
@@ -31,7 +31,7 @@ body{
 }
 
 /* tech. */
-.nome{ 
+.nome {
     text-transform: uppercase;
     color: black;
     padding-left: 25px;
@@ -39,21 +39,21 @@ body{
     font-size: 30px;
     line-height: 36px;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
-    display:inline-block; 
+    display: inline-block;
 }
 
 /* sharpii */
-.nome2{
+.nome2 {
     text-transform: uppercase;
     color: #6C63FF;
     font-weight: 800;
     font-size: 30px;
     line-height: 36px;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
-    display:inline-block;
+    display: inline-block;
 }
 
-.creator{
+.creator {
     position: absolute;
     color: #6C63FF;
     font-weight: 500;
@@ -64,7 +64,7 @@ body{
     top: 80px;
 }
 
-.product{
+.product {
     position: absolute;
     color: black;
     font-weight: 500;
@@ -75,7 +75,7 @@ body{
     left: 73px;
 }
 
-.photographer{
+.photographer {
     position: absolute;
     color: #6C63FF;
     font-weight: 500;
@@ -128,7 +128,7 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    -text-fill-color: transparent; 
+    -text-fill-color: transparent;
 }
 
 /* EMAIL */
@@ -141,7 +141,7 @@ body{
     color: black;
 }
 
-#email:hover{
+#email:hover {
     color: #cd201f;
 }
 
@@ -149,7 +149,7 @@ body{
 /*-------------- BLOCCHI --------------*/
 
 /* SETUP */
-.setup{
+.setup {
     position: absolute;
     width: 331px;
     height: 76px;
@@ -160,7 +160,7 @@ body{
     border-radius: 0px 20px 20px 0px;
 }
 
-.title-setup{
+.title-setup {
     position: absolute;
     text-transform: uppercase;
     left: 10px;
@@ -173,7 +173,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title2-setup{
+.title2-setup {
     position: absolute;
     text-transform: uppercase;
     left: 45px;
@@ -186,7 +186,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.subtitle-setup{
+.subtitle-setup {
     position: absolute;
     color: black;
     font-weight: 400;
@@ -197,7 +197,7 @@ body{
     top: 47px;
 }
 
-.subtitle2-setup{
+.subtitle2-setup {
     position: absolute;
     color: #6C63FF;
     font-weight: 400;
@@ -208,7 +208,7 @@ body{
     top: 47px;
 }
 
-.subtitle3-setup{
+.subtitle3-setup {
     position: absolute;
     color: black;
     font-weight: 400;
@@ -219,7 +219,7 @@ body{
     top: 47px;
 }
 
-.foto-setup{
+.foto-setup {
     position: absolute;
     width: 90px;
     height: 70px;
@@ -234,7 +234,7 @@ body{
 
 /* PAYPAL */
 
-.paypal{
+.paypal {
     position: absolute;
     width: 331px;
     height: 76px;
@@ -245,7 +245,7 @@ body{
     border-radius: 20px 0px 0px 20px;
 }
 
-.title-paypal{
+.title-paypal {
     position: absolute;
     text-transform: uppercase;
     right: 47px;
@@ -258,7 +258,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title2-paypal{
+.title2-paypal {
     position: absolute;
     text-transform: uppercase;
     right: 10px;
@@ -271,7 +271,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.subtitle-paypal{
+.subtitle-paypal {
     position: absolute;
     color: black;
     font-weight: 400;
@@ -282,7 +282,7 @@ body{
     top: 45px;
 }
 
-.subtitle2-paypal{
+.subtitle2-paypal {
     position: absolute;
     color: #6C63FF;
     font-weight: 400;
@@ -293,7 +293,7 @@ body{
     top: 45px;
 }
 
-.subtitle3-paypal{
+.subtitle3-paypal {
     position: absolute;
     color: #000;
     font-weight: 400;
@@ -304,7 +304,7 @@ body{
     top: 45px;
 }
 
-.subtitle4-paypal{
+.subtitle4-paypal {
     position: absolute;
     color: #6C63FF;
     font-weight: 400;
@@ -315,7 +315,7 @@ body{
     top: 45px;
 }
 
-.foto-paypal{
+.foto-paypal {
     position: absolute;
     top: 16px;
     width: 35px;
@@ -335,7 +335,7 @@ body{
     border-radius: 0px 20px 20px 0px;
 }
 
-.title-preset{
+.title-preset {
     position: absolute;
     text-transform: uppercase;
     left: 10px;
@@ -348,7 +348,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.title2-preset{
+.title2-preset {
     position: absolute;
     text-transform: uppercase;
     left: 90px;
@@ -361,7 +361,7 @@ body{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.subtitle-preset{
+.subtitle-preset {
     position: absolute;
     color: black;
     font-weight: 400;
@@ -372,7 +372,7 @@ body{
     top: 45px;
 }
 
-.subtitle2-preset{
+.subtitle2-preset {
     position: absolute;
     color: #6C63FF;
     font-weight: 400;
@@ -383,7 +383,7 @@ body{
     top: 45px;
 }
 
-.foto-preset{
+.foto-preset {
     position: absolute;
     top: -12px;
     width: 90px;
@@ -406,7 +406,7 @@ body{
     border-radius: 20px 0px 0px 20px;
 }
 
-.title-benq{
+.title-benq {
     position: absolute;
     font-size: 25px;
     font-weight: 600;
@@ -418,7 +418,7 @@ body{
     right: 145px;
 }
 
-.title2-benq{
+.title2-benq {
     position: absolute;
     font-size: 25px;
     font-weight: 600;
@@ -430,7 +430,7 @@ body{
     right: 10px;
 }
 
-.subtitle-benq{
+.subtitle-benq {
     position: absolute;
     color: black;
     font-weight: 400;
@@ -441,7 +441,7 @@ body{
     top: 45px;
 }
 
-.subtitle2-benq{
+.subtitle2-benq {
     position: absolute;
     color: #6C63FF;
     font-weight: 400;
@@ -452,31 +452,30 @@ body{
     top: 45px;
 }
 
-.foto-benq{
+.foto-benq {
     position: absolute;
     width: 68px;
-    height: 40px;  
+    height: 40px;
     right: 235px;
     top: 18px;
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 
-/* ---------- BLOCCHI NON PIÚ UTILIZZATI ---------- */
-/* LENTION */
+/* Brama Luxury */
 
-.lention{
+.brama {
     position: absolute;
     width: 331px;
     height: 76px;
     left: 0;
-    top: 397px;
+    top: 555px;
     background: #f5f6fa;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0px 20px 20px 0px;
 }
 
-.title-lention{         
+.title-brama {
     position: absolute;
     text-transform: uppercase;
     left: 10px;
@@ -485,99 +484,49 @@ body{
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    color: #6C63FF;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.title2-lention{
-    position: absolute;
-    text-transform: uppercase;
-    left: 105px;
-    top: 10px;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    color: black;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.subtitle-lention{
-    position: absolute;
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 10px;
-    top: 45px;
-}
-
-.subtitle2-lention{
-    position: absolute;
-    color: #6C63FF;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 128px;
-    top: 45px;
-    text-transform: uppercase;
-}
-
-.subtitle3-lention{
-    position: absolute;
-    color: black;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 175px;
-    top: 45px;
-}
-
-.subtitle4-lention{
-    position: absolute;
-    color: #6C63FF;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 17.9px;
-    text-align: center;
-    left: 197px;
-    top: 45px;
-}
-
-.foto-lention{
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    right: 15px;
-    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.15));
-}
-
-
-/* Testo fine pagina */
-.testo-footer{
-    position: absolute;
     color: #000;
-    font-size: 11px;
-    line-height: 13.13px;
-    font-weight: 500;
-    text-align: center;
-    left: 135px;
-    bottom: 0;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.testo2-footer{
+.title2-brama {
+    position: absolute;
+    text-transform: uppercase;
+    left: 88px;
+    top: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #6C63FF;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subtitle-brama {
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
+    text-align: center;
+    left: 10px;
+    top: 45px;
+}
+
+.subtitle2-brama {
     position: absolute;
     color: #6C63FF;
-    font-size: 11px;
-    line-height: 13.13px;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.9px;
     text-align: center;
-    left: 197px;
-    bottom: 0;
-    text-transform: uppercase;
-    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
+    left: 125px;
+    top: 45px;
+}
+
+.foto-brama {
+    position: absolute;
+    top: 15px;
+    width: 100px;
+    height: 40px;
+    right: 20px;
 }
